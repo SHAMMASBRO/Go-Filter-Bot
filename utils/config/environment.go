@@ -32,9 +32,10 @@ func init() {
 		fmt.Println("configs loaded from .env file")
 	}
 
-	BotToken = os.Getenv("BOT_TOKEN")
-	Admins = int64ListEnviron("ADMINS")
-	MongodbURI = os.Getenv("MONGODB_URI")
+	BotToken = os.Getenv("7790223265:AAE96P6dRHW3k91nkbXlMvT42YQSxr8KlbM")
+	Admins = int64ListEnviron("6639622980
+")
+	MongodbURI = os.Getenv("mongodb+srv://shammas:shammas@cluster0.hdjsx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 	MultiFilter = strings.ToLower(os.Getenv("MULTI_FILTER")) == stringTrue
 	AutoDelete = int64Environ("AUTO_DELETE")
 	Port = stringEnviron("PORT", defaultPort)
